@@ -25,7 +25,7 @@ var __read = (this && this.__read) || function (o, n) {
     }
     return ar;
 };
-function signal(initialValue) {
+export default function signal(initialValue) {
     var currentValue1 = initialValue;
     var subscibers = new Map();
     var updateSubs = function () {
@@ -61,5 +61,4 @@ function signal(initialValue) {
         }
     };
 }
-export default { signal: signal };
 //# sourceMappingURL=index.js.map
