@@ -1,6 +1,6 @@
 {
   "name": "stephens-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A global state manager that resembles the svelte/store.",
   "main": "dist/lib/index.js",
   "scripts": {
